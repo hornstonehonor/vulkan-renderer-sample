@@ -1,0 +1,73 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Vulkan / shader build artifacts
+shaders/**/*.spv
+shaders/**/*.spv.json
+*.spv
+*.vert.spv
+*.frag.spv
+*.comp.spv
+*.rgen.spv
+shader_cache/
+pipeline_cache/
+*.cache
+
+# Native extension build output
+native/build/
+native/CMakeFiles/
+native/CMakeCache.txt
+native/compile_commands.json
+*.dll
+*.lib
+*.exp
+*.pdb
+*.obj
+
+# Java (alt toolchain, validator bridge)
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+
+# C# (alt toolchain, DXC shader bridge)
+bin/
+obj/
+*.user
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Runtime output
+logs/
+captures/
+*.vklog
+*.trace.json
